@@ -1,0 +1,32 @@
+Installation Instruction:
+
+1. Install binary dependencies:
+sudo apt-get install g++ gcc ghostscript gnupg1 graphviz libfuse2 \
+libjpeg-dev libmagic1 libpq-dev libpng-dev libreoffice libtiff-dev \
+poppler-utils postgresql python-dev python-virtualenv redis-server \
+sane-utils supervisor tesseract-ocr zlib1g-dev -y
+
+2. Create the Python virtual environment:
+virtualenv --python=/usr/bin/python2.7 mayan
+cd mayan
+source bin/activate
+
+3. Clone mayan-edms project
+git clone https://gitlab.com/mayan-edms/mayan-edms.git
+
+cd mayan-edms
+
+git checkout development
+
+4. Install dependencies
+
+pip install -r requirements.txt
+
+pip install elasticsearch
+
+(Create index "test" in elasticsearch if haven't done it before)
+In terminal: curl -X PUT http://localhost:9200/mayan_test {"acknowledged":true}
+
+./manage.py initialsetup
+
+./manage.py runserver port_number(e.g.: 6060)

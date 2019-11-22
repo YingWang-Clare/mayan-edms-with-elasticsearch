@@ -1,0 +1,16 @@
+version notes:
+
+July 26th: the version that was uploaded to the work station is the first version.
+
+July 26th: local modifications:
+1. Set elastic search parameters as global constant variables in settings
+2. Fix errors in each related models: cabinets, commments, tags
+since the fields in elastic search changes.
+
+
+July 26th: create my own repo on github: mayan-edms-with-elasticsearch
+on work station, git clone that repo
+on my local machine, the dir name is mayan-edms-dev
+every time modifying the code in mayan-edms-dev, just commit the changes, and push them.
+then on the work station, git pull to make everything up to date.
+
