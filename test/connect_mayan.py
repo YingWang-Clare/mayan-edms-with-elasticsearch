@@ -3,17 +3,8 @@ from pprint import pprint
 
 import mayan
 
-# page = requests.get('http://127.0.0.1:8000/api/document_types/', auth=('admin', 'primalmayan')).json()
-# pprint(page)
 
-# with open('/home/ying/Desktop/Papers/LanguageModels/bert.pdf', mode='rb') as src_file:
-#     requests.post('http://127.0.0.1:8000/api/documents/', auth=('admin', 'primalmayan'), files={'file': src_file}, data={'document_type': 1}).json()
-
-# get api token
-# pprint(requests.post('http://127.0.0.1:8000/api/auth/token/obtain/?format=json',
-#                      data={'username': 'admin', 'password': 'primalmayan'}).json())
-
-MAYAN_TOKEN = 'Token 1bc379fffc7ee0ea8839537dc7d4390a025e2052'
+MAYAN_TOKEN = 'Token ?????????????XXXXXXXXXXXX'
 MAYAN_API = 'http://127.0.0.1:8000/api/'
 session = requests.Session()
 headers = {'Authorization': MAYAN_TOKEN}
