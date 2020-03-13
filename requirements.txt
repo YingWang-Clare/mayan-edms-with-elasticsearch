@@ -44,7 +44,7 @@ pycountry==17.5.14
 pyocr==0.4.7
 PyPDF2==1.26.0
 python-dateutil==2.6.1
-python-gnupg==0.4.1
+python-gnupg==0.4.4
 python-magic==0.4.13
 pytz==2017.2
 PyYAML==3.12
