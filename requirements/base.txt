@@ -39,6 +39,6 @@ python-gnupg==0.4.1
 python-magic==0.4.13
 pytz==2017.2
 
-requests==2.18.4
+requests==2.20.0
 
 sh==1.12.14
