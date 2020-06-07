@@ -1,5 +1,5 @@
 # requirements/development.txt
-Werkzeug==0.12.2
+Werkzeug==0.15.3
 
 django-debug-toolbar==1.8
 django-extensions==1.9.0
