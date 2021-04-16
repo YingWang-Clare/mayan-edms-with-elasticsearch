@@ -1,7 +1,7 @@
 # requirements/development.txt
 Werkzeug==0.12.2
 
-django-debug-toolbar==1.8
+django-debug-toolbar==1.11.1
 django-extensions==1.9.0
 django-rosetta==0.7.13
 
