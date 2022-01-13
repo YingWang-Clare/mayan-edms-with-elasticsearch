@@ -38,7 +38,7 @@ mock==2.0.0
 olefile==0.46
 orderedmultidict==1.0.1
 pbr==5.4.0
-Pillow==4.2.1
+Pillow==9.0.0
 pkg-resources==0.0.0
 pycountry==17.5.14
 pyocr==0.4.7
