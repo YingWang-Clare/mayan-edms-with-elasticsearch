@@ -42,7 +42,7 @@ Pillow==4.2.1
 pkg-resources==0.0.0
 pycountry==17.5.14
 pyocr==0.4.7
-PyPDF2==1.26.0
+PyPDF2==1.27.5
 python-dateutil==2.6.1
 python-gnupg==0.4.1
 python-magic==0.4.13
